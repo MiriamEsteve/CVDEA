@@ -1,0 +1,12 @@
+README.md
+setup.py
+cvdea/__init__.py
+cvdea/cvDEA.py
+cvdea/data.py
+cvdea.egg-info/PKG-INFO
+cvdea.egg-info/SOURCES.txt
+cvdea.egg-info/dependency_links.txt
+cvdea.egg-info/not-zip-safe
+cvdea.egg-info/requires.txt
+cvdea.egg-info/top_level.txt
+test/test.py
