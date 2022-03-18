@@ -17,13 +17,13 @@ x = list(matrix.drop(y, axis=1).columns)
 
 
 # Pilling DEA
-D = 10
-P = 10
+D = 10 #Depth of configurations
+P = 10 #The number of different combinations of supporting hyperplanes
 
 # Create model
 model = cvdea.CVDEA(matrix, x, y, D, P)
 # Fit model
-model.fit_pillingDEA()
+model.fit_CVDEA()
 
 #Prediction
 matrix_pred = model.prediction(matrix)

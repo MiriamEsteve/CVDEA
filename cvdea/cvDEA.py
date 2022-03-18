@@ -6,7 +6,7 @@ INF = math.inf
 import matplotlib.pyplot as plt
 
 class CVDEA:
-    def __init__(self, matrix, x, y, D, P): # D = "profundidades" del pilling; P = P caminos
+    def __init__(self, matrix, x, y, D, P): # D = the depth of configurations; P = the number of different combinations of supporting hyperplanes
         self._check_enter_parameters(matrix, x, y)
 
         self.xCol = x
@@ -95,7 +95,7 @@ class CVDEA:
 
         return training, test
 
-    def fit_pillingDEA(self):
+    def fit_CVDEA(self):
         err_min = INF
 
         ######################################### Dividir matrix en train y test #######################################
